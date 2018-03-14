@@ -1,9 +1,9 @@
 from telegram.ext import CommandHandler
-from telegram.ext import Filters
 from telegram.ext import MessageHandler
 from telegram.ext import Updater
-from keys import TOKEN
+
 from commands import shutup
+from keys import TOKEN
 from messages import drop_message
 from userfilter import UserFilter
 
